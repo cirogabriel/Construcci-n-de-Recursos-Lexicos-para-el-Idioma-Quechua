@@ -64,6 +64,7 @@ data/raw/
 data/processed/
 *.csv
 *.json
+!project/abreviaturas.json
 *.parquet
 *.feather
 *.tsv
