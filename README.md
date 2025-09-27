@@ -1,4 +1,4 @@
-# NLP Course Lab Repository
+# REPOSITORIO: CONSTRUCCIÓN DE RECURSOS LÉXICOS PARA EL IDIOMA QUECHUA
 
 Este repositorio contiene mis laboratorios y ejercicios prácticos del curso de Procesamiento de Lenguaje Natural (NLP), incluyendo el proyecto de digitalización y estructuración de un diccionario Quechua-Español / Español-Quechua.
 
