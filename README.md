@@ -1,8 +1,8 @@
 # NLP Course Lab Repository
 
-Este repositorio contiene mis laboratorios y ejercicios prácticos del curso de Procesamiento de Lenguaje Natural (NLP).
+Este repositorio contiene mis laboratorios y ejercicios prácticos del curso de Procesamiento de Lenguaje Natural (NLP), incluyendo el proyecto de digitalización y estructuración de un diccionario Quechua-Español / Español-Quechua.
 
-## 📚 Contenido del Curso
+## Contenido del Curso y Proyecto
 
 ### Módulos Principales
 - **Fundamentos de NLP**: Tokenización, normalización, y preprocesamiento de texto
@@ -12,36 +12,37 @@ Este repositorio contiene mis laboratorios y ejercicios prácticos del curso de 
 - **Clasificación de Texto**: Análisis de sentimientos, categorización de documentos
 - **Modelos Avanzados**: Transformers, BERT, GPT
 - **Aplicaciones Prácticas**: Chatbots, traducción automática, resumen de texto
+- **Diccionario Quechua-Español**: Extracción, parsing y estructuración de diccionario bilingüe
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Python**: Lenguaje principal de programación
-- **NLTK**: Natural Language Toolkit
-- **spaCy**: Librería industrial de NLP
-- **scikit-learn**: Machine learning y clasificación
-- **Transformers (Hugging Face)**: Modelos pre-entrenados
+- **NLTK, spaCy, scikit-learn, Transformers**
+- **PyMuPDF, pdfplumber**: Extracción de texto de PDF
 - **Pandas & NumPy**: Manipulación y análisis de datos
-- **Matplotlib & Seaborn**: Visualización de datos
 - **Jupyter Notebooks**: Desarrollo interactivo
 
-## 📁 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```
 nlp/
-├── lab01_fundamentos/          # Introducción y preprocesamiento
-├── lab02_tokenization/         # Técnicas de tokenización
-├── lab03_morphology/           # Análisis morfológico
-├── lab04_ngrams/              # Modelos de N-gramas
-├── lab05_embeddings/          # Word embeddings
-├── lab06_classification/       # Clasificación de texto
-├── lab07_sentiment/           # Análisis de sentimientos
-├── lab08_transformers/        # Modelos transformer
-├── datasets/                  # Conjuntos de datos utilizados
-├── utils/                     # Funciones auxiliares
-└── requirements.txt           # Dependencias del proyecto
+├── README.md/                  # Conjuntos de datos utilizados
+├── .gitignore
+project/
+├── diccionario-qeswa-academia-mayor.pdf   # Fuente original
+├── diccionario_quechua_extractor.ipynb    # Proceso de extracción y parsing
+├── diccionario_utils.py                   # Librería de consulta
+├── quechua_espanol.json                   # Diccionario estructurado Q-E
+├── espanol_quechua.json                   # Diccionario estructurado E-Q
+├── abreviaturas.json                      # Abreviaturas y metadatos
+├── diccionario_raw.txt                    # Texto crudo extraído
+├── seccion_quechua_espanol.txt            # Texto limpio Q-E
+├── seccion_espanol_quechua.txt            # Texto limpio E-Q
+├── informe.md                             # Documentación técnica
+└── __pycache__/                           # Archivos temporales Python
 ```
 
-## 🚀 Configuración del Entorno
+## Configuración del Entorno
 
 ### Prerrequisitos
 ```bash
@@ -74,62 +75,15 @@ python -m spacy download es_core_news_sm
 python -m nltk.downloader punkt stopwords
 ```
 
-## 📖 Cómo Usar Este Repositorio
+## Proyecto Diccionario Quechua-Español
 
-1. **Navega por los laboratorios**: Cada carpeta `lab##_*` contiene ejercicios específicos
-2. **Ejecuta los notebooks**: Abre Jupyter Notebook y explora los archivos `.ipynb`
-3. **Experimenta con los datos**: Utiliza los datasets en la carpeta `datasets/`
-4. **Consulta las utilidades**: Revisa funciones comunes en `utils/`
+- Extracción y limpieza de texto desde PDF académico
+- Parsing avanzado para identificar lemas, categorías, variantes, sinónimos y ejemplos
+- Generación de archivos JSON estructurados y librería Python para consultas
+- Validación automática y manual de resultados
 
-## 🎯 Laboratorios Destacados
+**Resultados:**
+- Más de 13,000 entradas Quechua-Español y 5,000 Español-Quechua
+- Consultas eficientes por lema, categoría y campo semántico
+- Recurso digital reutilizable para NLP y preservación lingüística
 
-### Lab 01: Fundamentos
-- Limpieza y normalización de texto
-- Manejo de encoding y caracteres especiales
-- Expresiones regulares para NLP
-
-### Lab 05: Word Embeddings
-- Implementación de Word2Vec desde cero
-- Comparación de diferentes modelos de embeddings
-- Visualización en espacios dimensionales reducidos
-
-### Lab 08: Transformers
-- Fine-tuning de modelos BERT
-- Implementación de tareas de clasificación
-- Análisis de atención en transformers
-
-## 📊 Datasets Utilizados
-
-- **Corpus de noticias en español**
-- **Reviews de productos (Amazon)**
-- **Tweets para análisis de sentimientos**
-- **Corpus literario clásico**
-- **Documentos científicos**
-
-## 🔗 Recursos Adicionales
-
-- [Documentación NLTK](https://www.nltk.org/)
-- [spaCy Documentation](https://spacy.io/)
-- [Hugging Face Transformers](https://huggingface.co/transformers/)
-- [Papers with Code - NLP](https://paperswithcode.com/area/natural-language-processing)
-
-## 📝 Notas del Curso
-
-- Cada laboratorio incluye ejercicios teóricos y prácticos
-- Los notebooks contienen explicaciones detalladas y comentarios
-- Se incluyen ejemplos en español y otros idiomas
-- Los proyectos finales integran múltiples técnicas aprendidas
-
-## 🤝 Contribuciones
-
-Este repositorio es para fines educativos. Las mejoras y sugerencias son bienvenidas a través de issues y pull requests.
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
-**Autor**: Ciro  
-**Curso**: Procesamiento de Lenguaje Natural  
-**Última actualización**: $(date)
