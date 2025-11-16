@@ -7,9 +7,11 @@
     "prep.",
     "pron.",
     "s.",
-    "v."
+    "v.",
+    "loc.",
+    "loc.adv."
   ],
-  "características_morfológicas": [
+  "caracteristicas_morfologicas": [
     "f.",
     "m.",
     "pl.",
@@ -18,13 +20,10 @@
     "infínit.",
     "núm.",
     "núm.card.",
-    "núm.ord."
+    "núm.ord.",
+    "p."
   ],
-  "locuciones": [
-    "loc.",
-    "loc.adv."
-  ],
-  "elementos_morfológicos": [
+  "elementos_morfologicos": [
     "pref.",
     "suf."
   ],
