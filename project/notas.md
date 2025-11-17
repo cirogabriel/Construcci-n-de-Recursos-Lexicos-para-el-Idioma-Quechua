@@ -132,3 +132,124 @@ baches. P'ukru.
 pongo. s. NEOL. V. MIT'ANI.
 allwiq. adj. y s. tej. Urdidor. Persona que
 urde u ordena los hilos para tejer
+
+{
+    "lema": "achakáw!",
+    "categoria_gramatical": [
+      "interj."
+    ],
+    "campo_semantico": [],
+    "definicion": "¡Qué dolor",
+    "variantes_dialectales": {},
+    "sinonimos": [
+      "acháka",
+      "achakáy",
+      "ananáy"
+    ],
+    "antonimos": [],
+    "ejemplos": [],
+    "remite_a": ""
+  },
+
+
+  {
+    "lema": "achallqo",
+    "categoria_gramatical": [
+      "s."
+    ],
+    "campo_semantico": [
+      "Med.Folk.",
+      "Folk.",
+      "Bot."
+    ],
+    "definicion": "Estambre del maíz. Cabello o pelo del choclo. Se utiliza en mate como diurético",
+    "variantes_dialectales": {
+      "Pe": {
+        "Aya": [
+          "achalku"
+        ]
+      },
+      "Bol": [
+        "achallqo",
+        "phumi"
+      ],
+      "Ec": [
+        "akchallo"
+      ]
+    },
+
+    {
+    "lema": "achoq!",
+    "categoria_gramatical": [
+      "interj."
+    ],
+    "campo_semantico": [],
+    "definicion": "¡Qué olvido",
+    "variantes_dialectales": {},
+    "sinonimos": [],
+    "antonimos": [],
+    "ejemplos": [
+      "achoq! imatan ruwarani qonqanaykama. ¡qué hice hasta ponerlo al olvido"
+    ],
+    "remite_a": ""
+  },
+
+   {
+    "lema": "ahaw!",
+    "categoria_gramatical": [
+      "interj."
+    ],
+    "campo_semantico": [],
+    "definicion": "",
+    "variantes_dialectales": {},
+    "sinonimos": [],
+    "antonimos": [],
+    "ejemplos": [],
+    "remite_a": "ihiy!, waháy"
+  },
+   {
+    "lema": "allpayay",
+    "categoria_gramatical": [
+      "v."
+    ],
+    "campo_semantico": [],
+    "definicion": "Convertirse en tierra",
+    "variantes_dialectales": {},
+    "sinonimos": [],
+    "antonimos": [],
+    "ejemplos": [
+      "wañuspaqa allpayapusunmi, al morir nos convertiremos en tierra. SINÓN: allpaymanay"
+    ],
+    "remite_a": ""
+  },
+   {
+    "lema": "horqokuy",
+    "categoria_gramatical": [
+      "v."
+    ],
+    "campo_semantico": [],
+    "definicion": "Sacarse algo de sí mismo, como cabello, sangre, canas. Despojarse uno de sus prendas personales. Sacar algo con facilidad y de prisa de uno mismo",
+    "variantes_dialectales": {},
+    "sinonimos": [],
+    "antonimos": [],
+    "ejemplos": [
+      "horqokuy kiskata, sácale el espino; siwiykita horqokuy, sácate el anillo. ANTÓN: churakuy"
+    ],
+    "remite_a": ""
+  },
+
+   {
+    "lema": "chawpi",
+    "categoria_gramatical": [
+      "adj."
+    ],
+    "campo_semantico": [],
+    "definicion": "Cuando está antepuesto al sustantivo significa incompleto, no terminado, no lleno, a medias",
+    "variantes_dialectales": {},
+    "sinonimos": [],
+    "antonimos": [],
+    "ejemplos": [
+      "chawpi manka, olla no llena de pleno medio. EJEM: chawpi ñanpi tupasun, nos encontraremos en medio camino; pospuesto al sustantivo: en el centro, al medio. EJEM: chakra chawpipi mallki wiñan, en el centro de la chacra crece un árbol"
+    ],
+    "remite_a": ""
+  },
