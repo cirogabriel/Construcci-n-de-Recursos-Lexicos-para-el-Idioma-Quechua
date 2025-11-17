@@ -125,3 +125,10 @@ baches. P'ukru.
 
 ¿cuyo,–ya? pron. Interrog. ¿piqpa?
 ¿peqpa?
+
+
+# nuevas observaciones
+
+pongo. s. NEOL. V. MIT'ANI.
+allwiq. adj. y s. tej. Urdidor. Persona que
+urde u ordena los hilos para tejer
