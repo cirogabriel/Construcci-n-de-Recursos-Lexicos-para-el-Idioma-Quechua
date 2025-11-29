@@ -253,3 +253,49 @@ urde u ordena los hilos para tejer
     ],
     "remite_a": ""
   },
+
+
+
+  ## NUEVO
+
+  {
+    "lema": "abrir",
+    "categoria_gramatical": [
+      "v."
+    ],
+    "campo_semantico": [],
+    "definicion": "Kichay, kichariy. Abrir surco. Agr. wayq'oy. Abrir la boca: hanllariy",
+    "variantes_dialectales": {},
+    "sinonimos": [],
+    "antonimos": [],
+    "ejemplos": [],
+    "remite_a": ""
+  },
+
+  {
+    "lema": "acariciar",
+    "categoria_gramatical": [
+      "v."
+    ],
+    "campo_semantico": [],
+    "definicion": "Waylluy, luluy, mayway. Con la barbilla: sunkhay",
+    "variantes_dialectales": {},
+    "sinonimos": [],
+    "antonimos": [],
+    "ejemplos": [],
+    "remite_a": ""
+  },
+
+  {
+    "lema": "acercarse",
+    "categoria_gramatical": [
+      "v."
+    ],
+    "campo_semantico": [],
+    "definicion": "Achhuykuy, qayllakuy. Acercarse acá: achhuykamuy. Acercarse poco apoco: achhupayay",
+    "variantes_dialectales": {},
+    "sinonimos": [],
+    "antonimos": [],
+    "ejemplos": [],
+    "remite_a": ""
+  },
